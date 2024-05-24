@@ -15,8 +15,8 @@ const StatusCard = ({
   text,
 }: any) => {
   return (
-    <div className="py-2 flex my-2 items-center justify-start border-b text-start text-xs font-semibold">
-      <p className="w-[75px] pl-2">{jobId}</p>
+    <div className="py-2 pr-1 flex my-2 items-center justify-start border-b text-start text-xs font-semibold">
+      <p className="w-[60px] pl-2">{jobId}</p>
       <p className="w-24 px-1">{name}</p>
       <p className="w-28 ">{position}</p>
       <p className="w-20 px-1">{level1}</p>

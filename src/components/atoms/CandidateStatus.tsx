@@ -103,16 +103,16 @@ const CandidateStatus = () => {
           </button>
         </div>
       </div>
-      <div className="bg-gray-100 p-2 flex mt-6 gap-9  border-black border-b-2">
-        <p>Job ID</p>
-        <p>Name</p>
-        <p>Position</p>
-        <p>1st level</p>
-        <p>2nd level</p>
-        <p>3rd level</p>
-        <p>4th level</p>
-        <p>Total Marks</p>
-        <p>Status</p>
+      <div className="bg-gray-100 p-2 flex mt-6 text-sm border-black border-b-2">
+        <p className="w-14">Job ID</p>
+        <p className="w-24">Name</p>
+        <p className="w-24">Position</p>
+        <p className="w-20">1st level</p>
+        <p className="w-24">2nd level</p>
+        <p className="w-24">3rd level</p>
+        <p className="w-24">4th level</p>
+        <p className="w-24">Total Marks</p>
+        <p className="ml-4 w-20">Status</p>
         <p>Actions</p>
       </div>
       {candidates.map((candidate) => (
