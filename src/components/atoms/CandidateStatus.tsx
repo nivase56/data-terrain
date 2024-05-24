@@ -103,7 +103,7 @@ const CandidateStatus = () => {
           </button>
         </div>
       </div>
-      <div className="bg-red-600 p-2 flex mt-6 text-sm border-black border-b-2">
+      <div className="bg-gray-100 p-2 flex mt-6 text-sm border-black border-b-2">
         <p className="w-14">Job ID</p>
         <p className="w-24">Name</p>
         <p className="w-24">Position</p>
